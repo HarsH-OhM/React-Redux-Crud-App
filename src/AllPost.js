@@ -7,6 +7,7 @@ class AllPost extends Component {
     return (
       <div>
         <h1 className="post_heading"> All  Posts</h1>
+        <hr/>
         {this.props.posts.map((post) => (
           <div key={post.id}>
             {post.editing ? (
